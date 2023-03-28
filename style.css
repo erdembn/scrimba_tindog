@@ -1,0 +1,169 @@
+*,
+*::before,
+::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+nav {
+    max-width: 550px;
+    padding: 1rem;
+    padding-bottom: 0.3rem;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-images {
+    width: 2.25rem;
+    height: 2.25rem;
+}
+
+.logo-image {
+    width: 5rem;
+    height: 2.25rem;
+}
+
+.container {
+    max-width: 400px;
+    max-height: 800px;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F6F7FB 100%);
+    margin: 0 auto;
+
+
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    max-width: 550px;
+}
+
+
+#dog-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 550px;
+
+
+
+}
+
+.dog img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 1rem;
+
+}
+
+.dog {
+    position: relative;
+    height: 500px;
+
+
+}
+
+.dog-details {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem;
+    color: #fff;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+.dog-details h2,
+p {
+    margin: 0;
+}
+
+.dog-name {
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: 700;
+}
+
+.dog-bio {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 200;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.button {
+    border: none;
+    display: inline-block;
+    width: 4rem;
+    height: 4rem;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 0 0.8rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+.button img {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.badge-container {
+    position: absolute;
+    display: inline-block;
+    top: 50px;
+    left: 10px;
+    width: 150px;
+    transform: rotate(-35deg);
+}
+
+
+#dislike-button:hover {
+    background-color: rgba(255, 92, 92, 0.4);
+
+}
+
+#like-button:hover {
+
+    background-color: rgba(110, 231, 183, 0.4);
+
+}
+
+.no-more-dogs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    height: 500px;
+
+}
+
+.no-more-dogs p {
+    font-size: 5rem;
+}
